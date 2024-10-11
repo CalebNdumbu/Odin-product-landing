@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto";
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(240, 28%, 14%);
+  color: white;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 24px;
+  color: #ccc;
+}
