@@ -147,3 +147,46 @@ main {
   font-weight: bold;
   font-size: 24px;
 }
+
+.call-to-action {
+  display: flex;
+  padding: 0% 20%;
+  align-items: center;
+  min-height: 400px;
+}
+
+.cta {
+  display: flex;
+  background-color: #3882f6;
+  flex: 1;
+  height: 120px;
+  justify-content: space-around;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.cta-text {
+  align-self: center;
+}
+
+.cta-text h3 {
+  color: #f9faf8;
+  font-size: 25px;
+}
+
+.cta-text p {
+  color: #e5e7eb;
+  font-size: 17px;
+}
+
+.cta button {
+  align-self: center;
+  height: 36px;
+  width: 124px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 11px;
+  font-weight: bold;
+  font-size: 15px;
+  border: 2px solid;
+}
