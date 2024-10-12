@@ -129,6 +129,7 @@ main {
   padding: 0 20%;
   display: flex;
   align-items: center;
+  min-height: 400px;
 }
 .testimonial-quote {
   display: flex;
@@ -189,4 +190,15 @@ main {
   font-weight: bold;
   font-size: 15px;
   border: 2px solid;
+}
+
+footer {
+  background-color: #1f2937;
+  min-height: 100px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 18px;
 }
